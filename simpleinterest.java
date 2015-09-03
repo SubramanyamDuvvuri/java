@@ -5,7 +5,7 @@ class simpleinterest
 	public static void main (String [] arg )
 	{
 		Scanner input = new Scanner ( System.in );
-		double[] Principle= new Principle[10] ;
+		 double[] Principle= new Principle[10] ;
 		double[] Rate= new Rate[10] ; 
 		double[] Time=new time [10];
 		double[] SI=new SI [10];
