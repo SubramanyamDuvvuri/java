@@ -5,17 +5,20 @@ class simpleinterest
 	public static void main (String [] arg )
 	{
 		Scanner input = new Scanner ( System.in );
-		double Principal ;
-		double Rate ; 
-		double Time;
-		double SI;
+		double[] Principle= new Principle[10] ;
+		double[] Rate= new Rate[10] ; 
+		double[] Time=new time [10];
+		double[] SI=new SI [10];
 		
 		System.out.println ( "Enter principle , rate and time in years respectively");
-		Principal = input.nextDouble();
-		Rate = input.nextDouble();
-		Time = input.nextDouble();
-		SI=calculate(Principal,Rate,Time);
-		System.out.println(SI +" is the simple interest");
+		for ( int i =0; i<10;i++)
+		{
+			Principle[i] = input.nextDouble();
+			Rate[i] = input.nextDouble();
+			Time[i] = input.nextDouble();
+			SI[i]=calculate(Principle[i],Rate[i],Time[i]);
+			System.out.println(SI[i] +" is the simple interest");
+		}
 	}
 
 
