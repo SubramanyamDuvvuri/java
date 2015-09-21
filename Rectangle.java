@@ -32,7 +32,7 @@
 
 	// Constructor , Should have the same name as of the class and should not have a return type not even void  
 
-	public Rectangle( double l , double width )
+	public Rectangle( double l , double w )
 	{
 		length = l;
 		width = w;
