@@ -1,6 +1,6 @@
 class examplearray 
 {
-	public  void main ( String [] arg )
+	public static  void main ( String [] arg )
 	{
 		final int MAX = 6;
 		int number [] = new int  [MAX];	
@@ -15,8 +15,9 @@ class examplearray
 		{
 			System.out.println (number[i]);
 		}
-		show (number);
-
+		
+		examplearray o = new examplearray();
+		o.show(number);
 	}
 
 
