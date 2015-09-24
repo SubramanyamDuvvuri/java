@@ -5,7 +5,7 @@
 
 	
 	// the setlength () method is used to set the length of the rectangle
-	public   void setlength ( double len)
+/*	public   void setlength ( double len)
 	{
 	 	length = len ;
 	}
@@ -15,7 +15,7 @@
 	{
 		width=wid ;
 	}
-
+*/
 	
 	//for displaying the length
 	public double getlength()

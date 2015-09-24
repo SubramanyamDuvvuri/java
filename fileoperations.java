@@ -8,12 +8,16 @@ public class fileoperations
 {
 	public static void main(String arg []) throws IOException
 	{
-		PrintWriter operation = new PrintWriter("textfile.txt");
+		PrintWriter write_new = new PrintWriter("textfile.txt");
 		
-		operation.println(" hello world");
+		write_new.println(" hello world");
 		
-		operation.close();	
-
+		write_new.close();	
+		
+		FileWriter  apend = new FileWriter ( " textfile.txt",true);
+		PrintWriter add = new PrintWriter(apend);
+		add.println ("how are you");
+		add.close();	 
  
 	}
 }
